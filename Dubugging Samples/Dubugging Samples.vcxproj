@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RubberMain.cpp" />
+    <ClCompile Include="VisualStudio.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

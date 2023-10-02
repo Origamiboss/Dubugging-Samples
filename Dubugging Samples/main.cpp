@@ -5,5 +5,7 @@ using namespace std;
 //just swap out which debugging file you are testing in main!
 int main() {
 	//Rubber Ducky Debugging
-	RubberMain();
+	//RubberMain();
+	//Visual Studio Debugging
+	VisualStudioMain();
 }

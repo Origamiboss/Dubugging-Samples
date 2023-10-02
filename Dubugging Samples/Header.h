@@ -4,3 +4,4 @@
 
 //Rubber Ducky Debugging
 void RubberMain();
+void VisualStudioMain();
