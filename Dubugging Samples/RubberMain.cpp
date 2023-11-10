@@ -1,6 +1,3 @@
-#include <iostream>
-#include "Header.h"
-using namespace std;
 //This is the Rubber Ducky Debugging Main Code
 /*
 The purpose of this code is to get input from the user into three integers x, y, and z.
@@ -8,6 +5,11 @@ We will then calculate the equation x+y*z and display the results in comparision
 The problem here is that the wrong number is being calculated.
 Use rubber ducky debugging to solve the problem!
 */
+
+#include <iostream>
+#include "Header.h"
+using namespace std;
+
 void RubberMain() {
 	int overallInt;
 	int x;

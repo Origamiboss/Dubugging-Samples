@@ -4,4 +4,6 @@
 
 //Rubber Ducky Debugging
 void RubberMain();
-void VisualStudioMain();
+//void VisualStudioMain();
+void PrintMain();
+void CutInHalfMain();

@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CutInHalf.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PrintMain.cpp" />
     <ClCompile Include="RubberMain.cpp" />
     <ClCompile Include="VisualStudio.cpp" />
   </ItemGroup>

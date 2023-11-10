@@ -7,5 +7,7 @@ int main() {
 	//Rubber Ducky Debugging
 	//RubberMain();
 	//Visual Studio Debugging
-	VisualStudioMain();
+	//VisualStudioMain();
+	//PrintMain();
+	//CutInHalfMain();
 }

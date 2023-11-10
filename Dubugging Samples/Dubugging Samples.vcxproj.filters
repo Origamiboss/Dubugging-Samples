@@ -24,6 +24,12 @@
     <ClCompile Include="VisualStudio.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="PrintMain.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CutInHalf.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
