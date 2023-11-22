@@ -1,4 +1,7 @@
 /*
+Vincent Climer
+GitHub: https://github.com/Origamiboss/Dubugging-Samples.git
+
 The purpose of this program is to show off a debugging style known as cut the problem in half.
 Often times, your program can get so large, you have no idea where the problem in the problem lies.
 The purpose of this program is to find all of the factors of a number;

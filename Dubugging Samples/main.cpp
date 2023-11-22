@@ -1,3 +1,8 @@
+/*
+Vincent Climer
+GitHub: https://github.com/Origamiboss/Dubugging-Samples.git
+*/
+
 #include "Header.h"
 #include <iostream>
 using namespace std;

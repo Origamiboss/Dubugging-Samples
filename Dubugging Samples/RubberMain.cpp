@@ -1,5 +1,8 @@
 //This is the Rubber Ducky Debugging Main Code
 /*
+Vincent Climer
+GitHub: https://github.com/Origamiboss/Dubugging-Samples.git
+
 The purpose of this code is to get input from the user into three integers x, y, and z.
 We will then calculate the equation x+y*z and display the results in comparision to 50.
 The problem here is that the wrong number is being calculated.

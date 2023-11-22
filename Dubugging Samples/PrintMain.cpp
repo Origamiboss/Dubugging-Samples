@@ -1,6 +1,9 @@
 /*
+Vincent Climer
+GitHub: https://github.com/Origamiboss/Dubugging-Samples.git
+
 This program is broken in such a way so that the debugger can use print functions to figure out what's wrong.
-The game is supposed to be a rock paper sissors game where you can choose to play against a computer or a person.
+The game is supposed to be a rock paper Scissors  game where you can choose to play against a computer or a person.
 */
 #include<iostream>
 #include "Header.h"
@@ -44,13 +47,13 @@ string calculateResult(int c1, int c2) {
 	string result;
 	//generate result
 	if ((c1 == 1 && c2 == 2) || (c1 == 2 && c2 == 1)) {
-		result = "Rock beats Sissors, Player ";
+		result = "Rock beats Scissors , Player ";
 		if (c1 == 1) result += "1";
 		else result += "2";
 		result += " wins\n";
 	}
 	else if ((c1 == 2 && c2 == 3) || (c1 == 3 && c2 == 2)) {
-		result = "Sissors beat Paper, Player ";
+		result = "Scissors  beat Paper, Player ";
 		if (c1 == 2) result += "1";
 		else result += "2";
 		result += " wins\n";
@@ -68,7 +71,7 @@ string calculateResult(int c1, int c2) {
 			result += "Rock";
 			
 		case 2:
-			result += "Sissors";
+			result += "Scissors ";
 			
 		case 3:
 			result += "Paper";
@@ -87,7 +90,7 @@ int getPlayerInput(int player) {
 	for (int i = 0; i < 40; i++) {
 		cout << endl;
 	}
-	cout << "Choose a item, 1- Rock, 2-Sissors, 3-Paper\n";
+	cout << "Choose a item, 1- Rock, 2-Scissors , 3-Paper\n";
 	cout << "Player " << player << ": ";
 	int p;
 	cin >> p;
